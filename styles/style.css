@@ -9,23 +9,29 @@ body {
   }
 
 header{
-	display:flex;
-	flex-direction: row;
-	background-color: red;
-	justify-content: center;
+	height:60px;
 	box-shadow: 0em 0.3em 1.5em rgba(0,0,0,0.1);
 }
-#logo{
-	background-color: black;
+
+.main-nav a img{
+	height:24px;
+	margin:auto;
+	float:left;
 }
 
-#logo img{
-	width:40%;
-	margin:0.75em;
+.main-nav ul{
+	margin:0;
+	list-style-type: none;
 }
 
-#vergroot img{
-	width: 100%;
+.main-nav ul li{
+	display: block;
+	float:right;
+	background-color: red;
+}
+
+#vergrooticoon img{
+	width: 10%;
 }
 
 #lidworden{
@@ -34,8 +40,5 @@ header{
 	text-transform: uppercase;
 	color:#8004d1;
 	background-color: white;
-}
-
-#menu img{
-	width:130%;
+	font-size: 12px;
 }
