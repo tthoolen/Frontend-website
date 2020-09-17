@@ -40,9 +40,16 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -dit ging goed & dit was lastig-
 
+Ik vind het steeds makkelijker om de html opbouw te begrijpen en waarom waarom elementen in bijvoorbeeld een div gezet worden. Ik vind het wel heel lastig om te bepalen of een element een class of een id moet krijgen of waarneer ik een first-of-type moet gebruiken.
+
 **Screenshot(s):**
 
 -screenshot(s) van hoe ver je bent-
+![screenshot(s) van hoever ik ben](images/voortgang1.png)
+![screenshot(s) van hoever ik ben](images/voortgang2.png)
+![screenshot(s) van hoever ik ben](images/voortgang3.png)
+![screenshot(s) van hoever ik ben](images/voortgang4.png)
+![screenshot(s) van hoever ik ben](images/voortgang5.png)
 
 ### Agenda voor meeting
 
