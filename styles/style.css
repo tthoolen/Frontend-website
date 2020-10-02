@@ -6,6 +6,7 @@
 body {
   	margin:0; padding:0;
   	font-family:Argumentum-Regular,sans-serif;
+  	font-size: 18px;
   }
 
 /*/--------------header------------/*/
@@ -14,11 +15,15 @@ body {
 	display:flex;
 	flex-direction: row;
 	margin:0;
+	background-color: white;
 	list-style-type: none;
 	height:64px;
 	box-shadow: 0em 0.3em 1.5em rgba(0,0,0,0.1);
 	padding-left: 16px;
     padding-right: 16px;
+    position:fixed;
+    top:0;
+    width:100%;
 }
 
 #logolinkstop img{
@@ -44,7 +49,7 @@ body {
 
 /*/--------------main------------/*/
 
-
+/*/-------section1--------/*/
 
 h1{
 	text-transform: uppercase;
@@ -53,7 +58,7 @@ h1{
 }
 
 span{
-	-webkit-text-stroke: 0.5px #fe7000;
+	-webkit-text-stroke: 0.1px #fe7000;
     color: transparent;
     display: block;
 }
@@ -61,6 +66,7 @@ span{
 #tussentext1 {
 	font-size: 20px;
     line-height: 32px;
+    margin: 0 0 24px;
 }
 
 article{
@@ -69,17 +75,95 @@ article{
 	background: #fff;
 }
 
-
 article img{
 width: 100%;
 }
 
- {
+.zijruimte {
 	padding-left: 16px;
     padding-right: 16px;
 }
 
+form{
+	width: 100%;
+}
 
+input{
+	background-color: #ededf7;
+	padding: 0 28px 0 24px;
+	height: 56px;
+	border:none;
+	border-left: 3px solid #fe7000;
+}
 
+#paarsebutton{
+	padding: 16px 50px;
+	background-color: #7322c9;
+	color:white;
+	text-decoration: none;
+	font-size: 16px;
+	text-transform: uppercase;
+	width: 100%;
+}
 
+/*/------section2------/*/
+
+/////#carouselvak{
+	background-color: #ededf7;
+}
+
+/*/-------section3------/*/
+
+article{
+	border: 1px solid #d8d8d8;
+    color: #313136;
+    }
+
+.ruimte{
+	padding: 16px 16px 110px;
+}
+
+//////ul.checkmark{
+	list-style-image: url('images/checkitem.png');
+}
+
+article button{
+	background-color: #0ad5dd;
+	border:none;
+	box-shadow: 0 2px 20px 0 rgba(0,0,0,.2);
+	color:white;
+	border-radius: 4px;
+	padding: 8px 16px;
+}
+
+.oranjeknop{
+	background-color: #fe7000;
+	color:white;
+	text-transform: uppercase;
+}
+
+/*/-------footer--------/*/
+
+footer{
+	background-color: #7322c9;
+	color:white;
+	padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 40px;
+}
+
+footer h2{
+	font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.footerlinks li{
+	list-style-type: none;
+}
+
+.footerlinks li a{
+	color: #d2a8ff;
+	text-decoration: none;
+}
 

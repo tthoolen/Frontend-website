@@ -30,8 +30,30 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
 
+-dit ging goed & dit was lastig-
+
+Ik vind het nog heel lastig om de logica van de layout goed te zien. Ik snap de theorie van layout wel goed maar als ik het op verschillende manieren toe moet passen raak ik vaak in de war. Het werken met css opmaak gaat wel steeds beter. Ik moet mij nu gaan concentreren op het responsive in combinatie met de layout en daar kijk ik een beetje tegenop.
+
+**Screenshot(s):**
+
+-screenshot(s) van hoe ver je bent-
+![screenshot(s) van hoever ik ben](images/tweedevoortgang1.png)
+![screenshot(s) van hoever ik ben](images/tweedevoortgang2.png)
+![screenshot(s) van hoever ik ben](images/tweedevoortgang3.png)
+![screenshot(s) van hoever ik ben](images/tweedevoortgang4.png)
+![screenshot(s) van hoever ik ben](images/tweedevoortgang5.png)
+
+### Agenda voor meeting
+
+- bespreken hoe je door kunt gaan naar een tweede pagina
+- bespreken hoe media queries gebruikt worden
+- bespreken hoe je de nav bar veranderd bij responsive 
+
+### Verslag van meeting
+
+-na afloop snel uitkomsten vastleggen-
 
 
 ## Voortgang 1 (week 3)
