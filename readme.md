@@ -34,7 +34,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -dit ging goed & dit was lastig-
 
-Ik vind het nog heel lastig om de logica van de layout goed te zien. Ik snap de theorie van layout wel goed maar als ik het op verschillende manieren toe moet passen raak ik vaak in de war. Het werken met css opmaak gaat wel steeds beter. Ik moet mij nu gaan concentreren op het responsive in combinatie met de layout en daar kijk ik een beetje tegenop.
+Ik vind het nog heel lastig om de logica van de layout goed te zien. Ik snap de theorie van layout wel goed maar als ik het op verschillende manieren toe moet passen raak ik vaak in de war. Het werken met css opmaak gaat wel steeds beter. Ik moet mij nu gaan concentreren op het responsive in combinatie met de layout en daar kijk ik een beetje tegenop. Mijn niveau is denk ik toch meer blauw dan rood...
 
 **Screenshot(s):**
 
