@@ -24,9 +24,17 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+-dit ging goed & dit was lastig-
 
+Ik krijg het gevoel dat ik niet ver genoeg ben met mijn opdracht terwijl ik er wel veel tijd in steek. Ik ben steeds te lang bezig als ik vast loop om de oplossing te vinden en laat andere delen dan langer liggen. 
 
+-screenshot(s) van hoe ver je bent-
+![screenshot(s) van hoever ik ben](images/derdevoortgang1.png)
+![screenshot(s) van hoever ik ben](images/derdevoortgang2.png)
+![screenshot(s) van hoever ik ben](images/derdevoortgang3.png)
+![screenshot(s) van hoever ik ben](images/derdevoortgang4.png)
+![screenshot(s) van hoever ik ben](images/derdevoortgang5.png)
+![screenshot(s) van hoever ik ben](images/derdevoortgang6.png)
 
 ## Voortgang 2 (week 5)
 

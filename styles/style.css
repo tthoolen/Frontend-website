@@ -11,28 +11,49 @@ body {
 
 /*/--------------header------------/*/
 
-.main-nav ul{
-	display:flex;
-	flex-direction: row;
-	margin:0;
+a, a:active, a:visited {
+	text-decoration: none;
+}
+
+.main-nav::before {
+	content: "";
+	width: 100%;
+	height: 2px;
+	position: fixed;
+	top: 0;
+	border: none;
+	background: linear-gradient(to left, #7322c9, #fe7000);
+}
+
+.main-nav {
+	width: 100%;
+	position: sticky;
+	z-index: 100;
 	background-color: white;
-	list-style-type: none;
-	height:64px;
+	top: 0;
 	box-shadow: 0em 0.3em 1.5em rgba(0,0,0,0.1);
-	padding-left: 16px;
-    padding-right: 16px;
-    position:fixed;
-    top:0;
-    width:100%;
+}
+
+.main-nav > ul {
+	padding: 0;
+	margin: 5px 0 10px 0;
+}
+
+.main-nav > ul > li {
+	display: inline-block;
+	font-weight: 600;
+	color: #ffffff;
+	width: 20%;
+	float: right;
+	text-align: center;
+	padding: 10px 0;
 }
 
 #logolinkstop img{
 	height:30px;
 	width:100px;
-}
-
-#vergrooticoon img{
-	width: 20%;
+	left: 1em;
+	position: absolute;
 }
 
 #lidworden{
@@ -40,11 +61,8 @@ body {
 	text-decoration: none;
 	text-transform: uppercase;
 	color:#7322c9;
-	font-size: 20px;
-}
-
-#menuicoon img{
-	width: 20%;
+	/font-size: 20px;/
+	font-size: 10px
 }
 
 /*/--------------main------------/*/
@@ -84,16 +102,48 @@ width: 100%;
     padding-right: 16px;
 }
 
-form{
-	width: 100%;
-}
-
 input{
 	background-color: #ededf7;
 	padding: 0 28px 0 24px;
 	height: 56px;
 	border:none;
 	border-left: 3px solid #fe7000;
+	min-width: 80%;
+}
+
+#rondje {
+	background-color: #7322c9;
+	height: 48px;
+	width: 48px;
+	border-radius: 50%;
+	border: none;
+	text-align: center;
+	position: relative;
+	transform: translateX(-50%);
+	color: white;
+}
+
+#seperator {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	z-index: 1;
+	color: #9b9b9b;
+}
+
+#seperator:before, #seperator:after {
+	content: "";
+	flex: 1 1;
+	border-bottom: 1px solid #9b9b9b;
+	margin: auto;
+}
+
+#seperator:before {
+	margin-right: 10px;
+}
+
+#seperator:after {
+	margin-left: 10px;
 }
 
 #paarsebutton{
@@ -103,7 +153,9 @@ input{
 	text-decoration: none;
 	font-size: 16px;
 	text-transform: uppercase;
-	width: 100%;
+	display: block;
+    max-width: 500px;
+    text-align: center;
 }
 
 /*/------section2------/*/
@@ -117,6 +169,7 @@ input{
 article{
 	border: 1px solid #d8d8d8;
     color: #313136;
+    position:relative;
     }
 
 .ruimte{
@@ -134,28 +187,40 @@ article button{
 	color:white;
 	border-radius: 4px;
 	padding: 8px 16px;
+	text-transform: uppercase;
+	font-size: 14px;
+	position:absolute;
+	left: 0;
+	right: 0;
 }
 
 .oranjeknop{
 	background-color: #fe7000;
 	color:white;
 	text-transform: uppercase;
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
 }
 
-/*/-------footer--------/*/
+/*/-------footer paars--------/*/
 
 footer{
+	background-color: white;
+}
+#footerpaars{
 	background-color: #7322c9;
-	color:white;
-	padding-left: 16px;
-    padding-right: 16px;
     padding-top: 40px;
+    position: relative;
+    font-size: 16px;
 }
 
 footer h2{
 	font-size: 18px;
     font-weight: 700;
     line-height: 22px;
+    color:white;
 }
 
 .footerlinks li{
@@ -164,6 +229,42 @@ footer h2{
 
 .footerlinks li a{
 	color: #d2a8ff;
+}
+
+#footer1{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+#footer1 li{
+	margin-bottom: 20px;
+}
+
+/*/------- footer man-------/*/
+
+#manopzij {
+	position: absolute;
+    width: 288px;
+    height: 110px;
+    right: 0;
+    bottom: 30px;
+}
+
+#achtergrondman{
+	width:100%;
+	bottom: 0;
+}
+
+/*/------- footer wit-------/*/
+
+#basiclogo{
+	width: 100px;
+	margin: 20px auto;
+}
+
+#tekstwitfooter{
+	margin: 12px 0;
 	text-decoration: none;
+	color: #313136;
 }
 
