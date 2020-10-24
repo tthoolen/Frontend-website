@@ -12,7 +12,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 4. alle afbeeldingen https://www.basic-fit.com/nl-nl
 5. unicode https://www.w3schools.com/charsets/ref_utf_dingbats.asp
 6. unicode https://www.w3schools.com/charsets/ref_emoji.asp
-7. 
+7. unicode https://www.w3schools.com/charsets/ref_utf_dingbats.asp
+8. unicode https://www.w3schools.com/charsets/ref_utf_punctuation.asp
+9. unicode https://unicode-table.com/en/2794/
+10. unicode https://www.compart.com/en/unicode/U+2304
 
 
 

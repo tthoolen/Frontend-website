@@ -1,0 +1,393 @@
+/* CSS Document */
+*, *::after, *::before {
+ box-sizing:border-box; 
+}
+
+body {
+  	margin:0; padding:0;
+  	font-family:Argumentum-Regular,sans-serif;
+  	font-size: 18px;
+  }
+
+/*/--------------header------------/*/
+
+a, a:active, a:visited {
+	text-decoration: none;
+}
+
+.main-nav::before {
+	content: "";
+	width: 100%;
+	height: 2px;
+	position: fixed;
+	top: 0;
+	border: none;
+	background: linear-gradient(to left, #7322c9, #fe7000);
+}
+
+.main-nav {
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+	background-color: white;
+	top: 0;
+	box-shadow: 0em 0.3em 1.5em rgba(0,0,0,0.1);
+	display: block;
+}
+
+.main-nav > ul {
+	padding: 0;
+	margin: 5px 0 10px 0;
+	cursor: pointer;
+}
+
+.main-nav > ul > li {
+	display: inline-block;
+	font-weight: 600;
+	color:black;
+	width: 20%;
+	float: right;
+	text-align: center;
+	padding: 10px 0;
+	max-width: 100px;
+	cursor: pointer;
+}
+
+#nav-desk::before {
+	content: "";
+	width: 100%;
+	height: 2px;
+	position: fixed;
+	top: 0;
+	border: none;
+	background: linear-gradient(to left, #7322c9, #fe7000);
+}
+
+#nav-desk{
+	position: fixed;
+	height:3.3em;
+	background-color: white;
+	width: 100%;
+	box-shadow: 0em 0.3em 1.5em rgba(0,0,0,0.1);
+	display: none;
+	top:0;
+	z-index: 100;
+}
+
+#nav-desk ul{
+	right: 0;
+	position:fixed;
+	cursor: pointer;
+}
+
+#nav-desk ul li{
+	display: inline-block;
+	float: right;
+	padding:0 10px;
+
+}
+
+.paginalinks{
+	color: #313136;
+}
+
+.paginalinks:hover{
+////////////////	color: ;
+	transition-duration: 0.2s;
+}
+
+.logolinkstop img{
+	height:30px;
+	width:100px;
+	left: 1em;
+	position: fixed;
+}
+
+.lidworden{
+	font-family: ArTarumianBakhum,sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	color:#7322c9;
+	font-size: 10px
+}
+
+#navzwart{
+	font-family: ArTarumianBakhum,sans-serif;
+	color: #313136;
+	text-transform: uppercase;
+}
+
+#js--overlay{
+	background-color: #3133136;
+}
+
+#js--overlay ul{
+	list-style: none;
+	text-align:center;
+	top:30px;
+	position: relative;
+	color: 
+}
+
+#js--overlay ul li a{
+	color: white;
+	font-family: ArTarumianBakhum,sans-serif;
+}
+
+#js--overlay {
+	z-index: 110;
+	display: none;
+	width: 100%;
+	height: 100%;
+	background-color: #313136;
+	position: fixed;
+	top: 0;
+	text-transform: uppercase;
+	line-height: 40px;
+}
+
+#js--overlay > ul {
+	list-style: none;
+	text-align: center;
+	top: 70px;
+	position: relative;
+}
+
+#js--overlay > ul > li > a{
+	color: white;
+	font-size: 26px;
+	font-weight: 600;
+}
+
+#nav-seperator {
+	width: 80%;
+	background-color: #4d4d4d;
+	height: 2px;
+	margin: 10px auto;
+}
+
+#closeMobileMenu {
+	margin: 0;
+	top: 10px;
+	right: 20px;
+	position: fixed;
+	cursor: pointer;
+	color: white;
+	font-size: 30px;
+}
+
+/*/--------------main------------/*/
+
+/*/-------section1--------/*/
+
+#hoofdimage{
+	position: absolute;
+	padding-top: 50px;
+	top: 0;
+	left: 0;
+	right:0;
+	display:block;
+}
+
+#hoofdimagedesk{
+	position:absolute;
+	top:0;
+	left: 0;
+	right:0;
+	display: none;
+}
+
+h1{
+	text-transform: uppercase;
+	font-family: ArTarumianBakhum,sans-serif;
+	font-size: 48px;
+}
+
+#titeloranje{
+	-webkit-text-stroke: 1px #fe7000;
+    color: transparent;
+    display: block;
+}
+
+.orajetekst{
+	color:#fe7000;
+}
+
+#zijruimte {
+	padding-left: 16px;
+    padding-right: 16px;
+}
+
+h2{
+	font-family: ArTarumianBakhum,sans-serif;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+
+p{
+	font-size: 18px;
+    line-height: 28px;
+}
+
+/*/----------------grid-----------------/*/
+
+#gridcontainer{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 20px;
+}
+
+.gridspan{
+	grid-column: span 2;
+}
+
+table{
+	text-align: left;
+}
+
+table img{
+	width:11px;
+}
+
+/*/-------section --------/*/
+
+#producten{
+	margin: 20px 0;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-column-gap: 20px;
+}
+
+.productbox{
+	border: 5px;
+	border-color: black;
+}
+
+#producten img{
+	width: 200px;
+}
+
+.pijloranje{
+	color: #fe7000;
+}
+
+/*/-------footer paars--------/*/
+
+#footerpaars::before {
+	content: "";
+	width: 100%;
+	height: 3px;
+	border: none;
+	position: absolute;
+	top: 0;
+	background: linear-gradient(to left, #7322c9, #0ad5dd);
+}
+
+footer{
+	background-color: white;
+}
+
+#footerpaars{
+	background-color: #7322c9;
+    padding-top: 40px;
+    position: relative;
+    font-size: 16px;
+}
+
+footer h3{
+	font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color:white;
+    margin-left: 16px;
+}
+
+.footerlinks li{
+	list-style-type: none;
+}
+
+.footerlinks li a{
+	color: #d2a8ff;
+}
+
+#footer1{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+#footer1 li{
+	margin-bottom: 20px;
+}
+
+/*/------- footer man-------/*/
+
+#manopzij {
+	position: relative;
+    width: 288px;
+    height: 110px;
+    right: 0;
+    float: right;
+    z-index: 5;
+    transform: translateY(33%);
+}
+
+#achtergrondman{
+	width:100%;
+	bottom: 0;
+	z-index: 3;
+	transform: translateY(10px);
+}
+
+/*/------- footer wit-------/*/
+
+#basiclogo{
+	width: 100px;
+	margin: 20px auto;
+}
+
+#tekstwitfooter{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+#tekstwitfooter li{
+	margin: 12px 0;
+	list-style-type: none;
+	text-align:center;	
+}
+
+#tekstwitfooter li a{
+	color: #313136;
+}
+
+#center{
+	text-align: center;
+	color: #313136;
+}
+
+.footer-seperator {
+	width: 100%;
+	background-color: #d5d5d5;
+	height: 1px;
+	margin: 10px auto;
+}
+
+@media only screen and (min-width: 770px){
+	#hoofdimage{
+		display: none;	
+	}
+
+	#hoofdimagedesk{
+		display: block;
+	}
+}
+
+@media only screen and (min-width: 1125px){
+	.main-nav{
+		display:none;
+	}
+
+	#nav-desk{
+		display:block;
+	}
+}

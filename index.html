@@ -14,27 +14,43 @@
 		<header>
 			<nav class='main-nav'>
 				<ul>
-					<li><a href="">&#9776;</a></li>
-					<li><a id="lidworden" href="">lid worden</a></li>
+					<li onclick="mobileNavOpen()">&#9776;</li>
+					<li><a class="lidworden" href="">lid worden</a></li>
 					<li><a href="">&#x1F50D;</a></li>
-					<li id='logolinkstop'><a href='index.html'><img src='images/logo.basicfit.svg' alt='logo basic-fit'></a></li>
+					<li class='logolinkstop'><a href='index.html'><img src='images/logo.basicfit.svg' alt='logo basic-fit'></a></li>
 				</ul>
 			</nav>
-			<nav>
-				<ul class="nav-desk">
-					<li><a href="">&#9776;</a></li>
-					<li><a id="lidworden" href="">lid worden</a></li>
-					<li><a href="">&#x1F50D;</a></li>
-					<li><a href="">Service</a></li>
-					<li><a href="">Train overal</a></li>
-					<li><a href="">Groepslessen</a></li>
-					<li><a href="">Begeleiding</a></li>
-					<li><a href="">Waarom Basic-Fit</a></li>
-					<li><a href="">prijzen</a></li>
-					<li><a href="">Vind een club</a></li>
-					<li id='logolinkstop'><a href='index.html'><img src='images/logo.basicfit.svg' alt='logo basic-fit'></a></li>
-				</ul>
+			<nav id="nav-desk">
+					<ul>
+							<li><a id="navzwart" href="">mijn basic-fit</a></li>
+							<li><a class="lidworden" href="">lid worden</a></li>
+							<li><a href="">&#x1F50D;</a></li>
+							<li><a class="paginalinks" href="">Service</a></li>
+							<li><a class="paginalinks" href="pagina2.html">Train overal</a></li>
+							<li><a class="paginalinks" href="">Groepslessen</a></li>
+							<li><a class="paginalinks" href="">Begeleiding</a></li>
+							<li><a class="paginalinks" href="">Waarom Basic-Fit</a></li>
+							<li><a class="paginalinks" href="">prijzen</a></li>
+							<li><a class="paginalinks" href="">Vind een club</a></li>
+							<li class='logolinkstop'><a href='index.html'><img src='images/logo.basicfit.svg' alt='logo basic-fit'></a></li>
+					</ul>
 			</nav>
+			<section onclick="mobileNavClose()" id="js--overlay">
+				<p class="logolinkstop"><a href='index.html'><img src='images/logo.basicfit.svg' alt='logo basic-fit'></a></p>
+				<p id="closeMobileMenu" onclick="mobileNavClose()">&#10005;</p>
+				<ul id="mobileMenu">
+					<li> <a href="">Vind een club</a> </li>
+					<li> <a href="">Prijzen</a> </li>
+					<li> <a href="">Waarom Basic-Fit</a> </li>
+					<li> <a href="">Begeleiding</a> </li>
+					<li> <a href="">Groepslessen</a> </li>
+					<li> <a href="pagina2.html">Train overal</a> </li>
+					<li> <a href="">Service</a> </li>
+					<li><a class="lidworden" href="">lid worden</a></li>
+					<div id="nav-seperator"></div>
+					<li> <a href="">Mijn basic fit</a> </li>
+				</ul>
+			</section>
 		</header>
 		<main>
 			<section>
@@ -126,7 +142,7 @@
 							Sport 8 weken gratis
 							</button>
 							<p class="koptekstartikel">Premium Lidmaatschap</p>
-							<ul class="checkmark">
+							<ul>
 								<li>&#10004; Alle voordelen van het Comfort Lidmaatschap</li>
 								<li>&#10004; Deel je pas met je huisgenoot</li>
 								<li>&#10004; Neem altijd iemand mee om samen te sporten</li>
@@ -154,12 +170,12 @@
 				</div>
 			</section>
 			<section>
-				<img src="images/banner.section4.png" width="100%">
+				<img id="laatstebanner"src="images/banner.section4.png" width="100%">
 				<div id="laatstemaintekst" class="zijruimte">
 					<h2>Reserveer je fitnessmoment!</h2>
-					<ul class="checkmark">
-						<li>Reserveer tot 4 dagen van tevoren een tijdslot van max. 2 uur.</li>
-						<li>Zonder reservering kunnen we je geen toegang tot de club geven, sorry!</li>
+					<ul>
+						<li>&#10004; Reserveer tot 4 dagen van tevoren een tijdslot van max. 2 uur.</li>
+						<li>&#10004; Zonder reservering kunnen we je geen toegang tot de club geven, sorry!</li>
 					</ul>
 					<a id="reserveerpaars" href="">Reserveer nu</a>
 				</div>
@@ -210,15 +226,17 @@
 					<a  href='index.html'><img src='images/logo.basicfit.svg' alt='logo basic-fit'>
 					</div>
 					<div>
-						balkje
+						<div class="footer-seperator"></div>
+						<p id="center">Basic-Fit Nederland &#8964;</p>
+						<div class="footer-seperator"></div>
 					</div>
 					
 					<ul id="tekstwitfooter">
-						<li><a href="">Cookie Statement</a></li>
-						<li><a href="">Privacy Statement</a></li>
-						<li><a href="">14 dagen herroepingsrecht</a></li>
+						<li><a id="grid1" href="">Cookie Statement</a></li>
 						<li><a href="">Reglement cameratoezicht</a></li>
+						<li><a href="">Privacy Statement</a></li>
 						<li><a href="">Algemene voorwaarden</a></li>
+						<li><a href="">14 dagen herroepingsrecht</a></li>
 					</ul>
 					
 				</section>
