@@ -6,9 +6,13 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. informatie before en after https://css-tricks.com/almanac/selectors/a/after-and-before/
+2. informatie flexbox https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+3. informatie z-index https://developer.mozilla.org/en-US/docs/Web/CSS/z-index
+4. alle afbeeldingen https://www.basic-fit.com/nl-nl
+5. unicode https://www.w3schools.com/charsets/ref_utf_dingbats.asp
+6. unicode https://www.w3schools.com/charsets/ref_emoji.asp
+7. 
 
 
 
