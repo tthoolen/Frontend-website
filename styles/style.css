@@ -91,7 +91,7 @@ a, a:active, a:visited {
 }
 
 .paginalinks:hover{
-	//////color: #d5d5d5;
+	////////color: #d5d5d5;
 	transition-duration: 0.2s;
 }
 
@@ -156,6 +156,12 @@ a, a:active, a:visited {
 	color: white;
 	font-size: 26px;
 	font-weight: 600;
+}
+
+#lidwordenkoverlay{
+	background-color: #7322c9;
+	padding: 12px 24px; 
+	font-size: 16px;
 }
 
 #nav-seperator {

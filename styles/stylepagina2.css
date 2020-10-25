@@ -84,7 +84,6 @@ a, a:active, a:visited {
 	display: inline-block;
 	float: right;
 	padding:0 10px;
-
 }
 
 .paginalinks{
@@ -159,6 +158,12 @@ a, a:active, a:visited {
 	font-weight: 600;
 }
 
+#lidwordenkoverlay{
+	background-color: #7322c9;
+	padding: 12px 24px; 
+	font-size: 16px;
+}
+
 #nav-seperator {
 	width: 80%;
 	background-color: #4d4d4d;
@@ -187,20 +192,24 @@ a, a:active, a:visited {
 	left: 0;
 	right:0;
 	display:block;
+	z-index: 0;
 }
 
 #hoofdimagedesk{
 	position:absolute;
+	padding-top: 50px;
 	top:0;
 	left: 0;
 	right:0;
 	display: none;
+	z-index: 0;
 }
 
 h1{
 	text-transform: uppercase;
 	font-family: ArTarumianBakhum,sans-serif;
 	font-size: 48px;
+	z-index: 4;
 }
 
 #titeloranje{
@@ -269,6 +278,17 @@ table img{
 
 .pijloranje{
 	color: #fe7000;
+}
+
+#laatstetekst{
+	margin-bottom: 40px;
+	justify-content: center;
+}
+
+#laatstetekst img{
+	height: 60px;
+    width: 200px;
+    margin:auto;
 }
 
 /*/-------footer paars--------/*/
