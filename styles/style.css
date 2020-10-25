@@ -275,6 +275,7 @@ input{
 #paarsebutton{
 	padding: 16px 50px;
 	background-color: #7322c9;
+	font-family: ArTarumianBakhum,sans-serif;
 	color:white;
 	text-decoration: none;
 	font-size: 16px;
@@ -492,7 +493,8 @@ input{
 
 #laatstemaintekst{
 	padding: 16px;
-	padding-bottom: 48px;
+	padding-bottom: 70px;
+	position: relative;
 }
 
 #laatstemaintekst h2{
@@ -515,9 +517,10 @@ input{
 	color: white;
 	font-family: ArTarumianBakhum,sans-serif;
 	padding: 18px 28px;
-	margin: auto;
-    position: relative;
-  	text-align: center;
+	margin: 20px 0 ;
+    position: absolute;
+    bottom: 5px;
+    left: 35%;
 }
 
 #reserveerpaars a{
@@ -529,6 +532,7 @@ input{
 #footerpaars::before {
 	content: "";
 	width: 100%;
+	margin-left: -50%;
 	height: 3px;
 	border: none;
 	position: absolute;
@@ -628,6 +632,8 @@ footer h2{
 		width:45%;
 		float: right;
 		max-width: 625px;	
+		margin-right: 10%;
+		padding-top: 20px;
 	}
 
 	input{
@@ -676,6 +682,11 @@ footer h2{
 	#laatstemaintekst{
 		max-width: 45%: 
 	}
+
+	#mediawidth{
+		max-width: 1025px;
+		margin: auto;
+	}
 }
 
 @media only screen and (min-width: 1125px){
@@ -686,5 +697,6 @@ footer h2{
 	#nav-desk{
 		display:block;
 	}
-}
 
+
+}
