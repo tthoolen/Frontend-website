@@ -91,7 +91,7 @@ a, a:active, a:visited {
 }
 
 .paginalinks:hover{
-	////////color: #d5d5d5;
+	color: #d5d5d5;
 	transition-duration: 0.2s;
 }
 
@@ -487,6 +487,11 @@ input{
 
 /*/-------section5------/*/
 
+#laatstesection{
+		display: flex;
+		flex-direction: column;
+	}
+
 #laatstebanner{
 	width: 100%;
 }
@@ -551,7 +556,7 @@ footer{
     font-size: 16px;
 }
 
-footer h2{
+footer h3{
 	font-size: 18px;
     font-weight: 700;
     line-height: 22px;
@@ -572,6 +577,19 @@ footer h2{
 }
 
 #footer1 li{
+	margin-bottom: 20px;
+}
+
+#footer2 li{
+	margin-bottom: 20px;
+}
+
+#footer3{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+#footer3 li{
 	margin-bottom: 20px;
 }
 
@@ -620,6 +638,7 @@ footer h2{
 	text-align: center;
 	color: #313136;
 }
+
 .footer-seperator {
 	width: 100%;
 	background-color: #d5d5d5;
@@ -632,8 +651,7 @@ footer h2{
 		width:45%;
 		float: right;
 		max-width: 625px;	
-		margin-right: 10%;
-		padding-top: 20px;
+		padding-top: 40px;
 	}
 
 	input{
@@ -644,10 +662,6 @@ footer h2{
 		width: 35%;
 		padding: 20px 0;
 		margin: auto;
-	}
-
-	#paarsebutton{
-
 	}
 
 	#kopje1{
@@ -675,7 +689,6 @@ footer h2{
 
 	#laatstebanner{
 		max-width:45%;
-		float: left;
 		max-width: 50%;	
 	}
 
@@ -683,8 +696,33 @@ footer h2{
 		max-width: 45%: 
 	}
 
+	#laatstesection{
+		display: flex;
+		flex-direction: row;
+		max-width: 925px;
+		margin: auto;
+		padding: 30px 0;
+	}
+
 	#mediawidth{
 		max-width: 1025px;
+		margin: auto;
+	}
+
+	#gerelateerde{
+		max-width: 854px;
+		margin: auto;
+	}
+
+	#flexfooter{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		max-width: 1425px;
+		margin: auto;
+	}
+
+	#hoofdmax{
+		max-width: 1325px;
 		margin: auto;
 	}
 }
@@ -697,6 +735,4 @@ footer h2{
 	#nav-desk{
 		display:block;
 	}
-
-
 }

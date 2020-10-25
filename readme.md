@@ -16,6 +16,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 8. unicode https://www.w3schools.com/charsets/ref_utf_punctuation.asp
 9. unicode https://unicode-table.com/en/2794/
 10. unicode https://www.compart.com/en/unicode/U+2304
+11. informatie responsive footer https://www.youtube.com/watch?v=f4J3uaNNYTE
+12.
 
 
 
