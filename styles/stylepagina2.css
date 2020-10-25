@@ -193,6 +193,7 @@ a, a:active, a:visited {
 	position: relative;
 	padding-top: 50px;
 	top: 0;
+	left: 0;
 	right:0;
 	display:block;
 	width: 100%;
@@ -208,12 +209,24 @@ a, a:active, a:visited {
 	width: 100%;
 }
 
+#hoofdimage img {
+width:100%;
+margin: 0;
+padding:0;
+}
+
+#hoofdimagedesk img {
+width:100%;
+margin: 0;
+padding:0;
+}
+
 h1{
 	text-transform: uppercase;
 	font-family: ArTarumianBakhum,sans-serif;
-	font-size: 48px;
+	font-size: 40px;
 	position:absolute;
-	top:370px;
+	top:200px;
 }
 
 #titeloranje{
@@ -425,8 +438,8 @@ footer h3{
 		display: block;
 	}
 	h1{
-		font-size:96px;
-		top:200px;
+		font-size:60px;
+		top:20%;
 	}
 
 	#gridcontainer {
@@ -437,11 +450,10 @@ footer h3{
 	grid-column: span 2;
 	}	
 
-#producten{
+	#producten{
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-column-gap: 20px;
-}
-	
+	}	
 }
 
 @media only screen and (min-width: 1125px){
