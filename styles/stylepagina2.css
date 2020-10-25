@@ -195,6 +195,7 @@ a, a:active, a:visited {
 	top: 0;
 	right:0;
 	display:block;
+	width: 100%;
 }
 
 #hoofdimagedesk{
@@ -204,6 +205,7 @@ a, a:active, a:visited {
 	left: 0;
 	right:0;
 	display: none;
+	width: 100%;
 }
 
 h1{
@@ -218,6 +220,26 @@ h1{
 	-webkit-text-stroke: 1px #fe7000;
     color: transparent;
     display: block;
+}
+
+/*/--------------------grid--------------------/*/
+
+#gridcontainer{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-column-gap: 20px;
+}
+
+#gridcontainer img{
+	max-width: 400px;
+}
+
+table{
+	text-align: left;
+}
+
+table img{
+	width:11px;
 }
 
 .orajetekst{
@@ -235,46 +257,51 @@ p{
     line-height: 28px;
 }
 
-/*/----------------grid-----------------/*/
 
-#gridcontainer{
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-column-gap: 20px;
+#laatstelist li{
+	list-style-type: none;
 }
 
-table{
-	text-align: left;
+#laatstelist img{
+	width: 11px;
 }
 
-table img{
-	width:11px;
-}
-
-/*/-------section --------/*/
+/*/------------------section-----------------/*/
 
 #producten{
 	margin: 20px 0;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
 	grid-column-gap: 20px;
+	grid-row-gap:20px;
 }
 
 .productbox{
-	border: 5px;
-	border-color: black;
+	border: 1px;
+	border-style: solid;
+	border-color: #d5d5d5;;
+}
+
+.productbox p{
+	text-align:center;
+	font-size: 22px;
+	padding:0;
+	margin: auto;
 }
 
 #producten img{
-	width: 200px;
+	width: 100%;
 }
 
 .pijloranje{
 	color: #fe7000;
+	float:right;
+	padding:0;
+	margin: auto;
 }
 
 #laatstetekst{
-	margin-bottom: 40px;
+	margin: 40px 0 ;
 	justify-content: center;
 }
 
@@ -283,6 +310,8 @@ table img{
     width: 200px;
     margin:auto;
 }
+
+/*/--------------------footer--------------------/*/
 
 /*/-------footer paars--------/*/
 
@@ -385,6 +414,8 @@ footer h3{
 	margin: 10px auto;
 }
 
+/*/--------------------media-------------------/*/
+
 @media only screen and (min-width: 770px){
 	#hoofdimage{
 		display: none;	
@@ -404,8 +435,14 @@ footer h3{
 
     .gridspan{
 	grid-column: span 2;
-}	
+	}	
 
+#producten{
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-column-gap: 20px;
+}
+	
+}
 
 @media only screen and (min-width: 1125px){
 	.main-nav{
@@ -415,7 +452,4 @@ footer h3{
 	#nav-desk{
 		display:block;
 	}
-
-	
-}
 }
