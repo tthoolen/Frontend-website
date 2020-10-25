@@ -184,32 +184,34 @@ a, a:active, a:visited {
 /*/--------------main------------/*/
 
 /*/-------section1--------/*/
+#zijruimte {
+	padding-left: 16px;
+    padding-right: 16px;
+}
 
 #hoofdimage{
-	position: absolute;
+	position: relative;
 	padding-top: 50px;
 	top: 0;
-	left: 0;
 	right:0;
 	display:block;
-	z-index: 0;
 }
 
 #hoofdimagedesk{
-	position:absolute;
+	position:relative;
 	padding-top: 50px;
 	top:0;
 	left: 0;
 	right:0;
 	display: none;
-	z-index: 0;
 }
 
 h1{
 	text-transform: uppercase;
 	font-family: ArTarumianBakhum,sans-serif;
 	font-size: 48px;
-	z-index: 4;
+	position:absolute;
+	top:370px;
 }
 
 #titeloranje{
@@ -220,11 +222,6 @@ h1{
 
 .orajetekst{
 	color:#fe7000;
-}
-
-#zijruimte {
-	padding-left: 16px;
-    padding-right: 16px;
 }
 
 h2{
@@ -242,12 +239,8 @@ p{
 
 #gridcontainer{
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr;
 	grid-column-gap: 20px;
-}
-
-.gridspan{
-	grid-column: span 2;
 }
 
 table{
@@ -400,7 +393,19 @@ footer h3{
 	#hoofdimagedesk{
 		display: block;
 	}
-}
+	h1{
+		font-size:96px;
+		top:200px;
+	}
+
+	#gridcontainer {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .gridspan{
+	grid-column: span 2;
+}	
+
 
 @media only screen and (min-width: 1125px){
 	.main-nav{
@@ -410,4 +415,7 @@ footer h3{
 	#nav-desk{
 		display:block;
 	}
+
+	
+}
 }
