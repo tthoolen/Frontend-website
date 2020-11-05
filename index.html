@@ -1,9 +1,8 @@
 <!doctype html>
 <html lang="nl">
-	
 	<head>
 		<meta charset="UTF-8">
-		<meta name="author" content="jouw naam">
+		<meta name="author" content="Thasja Thoolen">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Basic-Fit</title>
 		<link href="styles/style.css" rel="stylesheet">
@@ -12,7 +11,7 @@
 		<header>
 			<nav class='main-nav'>
 				<ul>
-					<li onclick="mobileNavOpen()">&#9776;</li>
+					<li><button id="hamburgericoon">&#9776;</button></li>
 					<li><a class="lidworden" href="">lid worden</a></li>
 					<li><a href="">&#x1F50D;</a></li>
 					<li class='logolinkstop'><a href='index.html'><img src='images/logo.basicfit.svg' alt='logo basic-fit'></a></li>
@@ -24,7 +23,7 @@
 					<li><a class="lidworden" href="">lid worden</a></li>
 					<li><a href="">&#x1F50D;</a></li>
 					<li><a class="paginalinks" href="">Service</a></li>
-					<li><a class="paginalinks" href="pagina2.html">Train overal</a></li>
+					<li><a class="paginalinks" href="trainoveral.html">Train overal</a></li>
 					<li><a class="paginalinks" href="">Groepslessen</a></li>
 					<li><a class="paginalinks" href="">Begeleiding</a></li>
 					<li><a class="paginalinks" href="">Waarom Basic-Fit</a></li>
@@ -33,26 +32,26 @@
 					<li class='logolinkstop'><a href='index.html'><img src='images/logo.basicfit.svg' alt='logo basic-fit'></a></li>
 				</ul>
 			</nav>
-			<section onclick="mobileNavClose()" id="js--overlay">
+			<section id="hamburgermenu" class="js--overlay">
 				<p class="logolinkstop"><a href='index.html'><img src='images/logo.basicfit.svg' alt='logo basic-fit'></a></p>
-				<p id="closeMobileMenu" onclick="mobileNavClose()">&#10005;</p>
+				<button class="closeMobileMenu" id="kruisje">&#10005;</button>
 				<ul id="mobileMenu">
-					<li> <a href="">Vind een club</a> </li>
-					<li> <a href="">Prijzen</a> </li>
-					<li> <a href="">Waarom Basic-Fit</a> </li>
-					<li> <a href="">Begeleiding</a> </li>
-					<li> <a href="">Groepslessen</a> </li>
-					<li> <a href="pagina2.html">Train overal</a> </li>
-					<li> <a href="">Service</a> </li>
+					<li><a href="">Vind een club</a></li>
+					<li><a href="">Prijzen</a></li>
+					<li><a href="">Waarom Basic-Fit</a></li>
+					<li><a href="">Begeleiding</a></li>
+					<li><a href="">Groepslessen</a></li>
+					<li><a href="trainoveral.html">Train overal</a></li>
+					<li><a href="">Service</a></li>
 					<li><a id="lidwordenkoverlay" href="">lid worden</a></li>
 					<div id="nav-seperator"></div>
-					<li> <a href="">Mijn basic fit</a> </li>
+					<li> <a href="">Mijn basic fit</a></li>
 				</ul>
 			</section>
 		</header>
 		<main>
 			<section id="hoofdmax">
-				<img id="hoofdpagina" src="images/hoofdafbeelding.pagina1.png" alt=''>
+				<img id="hoofdpagina" src="images/hoofdafbeelding.pagina1.png" alt='go 4 weken gratis sporten en sporttas cadeau'>
 				<div id="kopje1" class="zijruimte">
 					<h1>
 					basic-fit is
@@ -72,36 +71,36 @@
 				<div id="mediawidth">
 					<h2>yay we zijn open! maar... safety first in de sportschool!</h2>
 					<div id="carouselrow">
-						<article class="carart">
-							<img class="carimg" src="images/icoon.carousel1.svg">
+						<article tabindex="0" class="carart">
+							<img class="carimg" src="images/icoon.carousel1.svg" alt="icoon telefoon">
 							<div class="carouseltekst">
 								<h3>Beperkt aantal mensen</h3>
 								<p>Reserveer je fitnessmoment in de app of op my.basic-fit.com. Geen reservering = geen toegang tot de sportschool. Sorry!</p>
 							</div>
 						</article>
-						<article class="carart">
-							<img class="carimg" src="images/icoon.carousel2.svg">
+						<article tabindex="0" class="carart">
+							<img class="carimg" src="images/icoon.carousel2.svg" alt="icoon gewichtheffen">
 							<div class="carouseltekst">
 								<h3>Symptomen = niet komen</h3>
 								<p>Heb je sympomen? Dan ben je niet welkom in de club. Snap je wel, toch?</p>
 							</div>
 						</article>
-						<article class="carart">
-							<img class="carimg" src="images/icoon.carousel3.svg">
+						<article tabindex="0" class="carart">
+							<img class="carimg" src="images/icoon.carousel3.svg" alt="icoon handen klappen">
 							<div class="carouseltekst">
 								<h3>Hygiëne</h3>
 								<p>Wij poetsen, poetsen, poetsen! Jij ook? Was je handen zo vaak mogelijk en reinig de fitness materialen voor en na gebruik.</p>
 							</div>
 						</article>
-						<article class="carart">
-							<img class="carimg" src="images/icoon.carousel4.svg">
+						<article tabindex="0" class="carart">
+							<img class="carimg" src="images/icoon.carousel4.svg" alt="icoon lineaal">
 							<div class="carouseltekst">
 								<h3>1,5 meter</h3>
 								<p>Denk aan die afstand. We hielden nog nooit zo veel van onze personal space als nu!</p>
 							</div>
 						</article>
-						<article class="carart">
-							<img class="carimg" src="images/icoon.carousel5.svg">
+						<article tabindex="0" class="carart">
+							<img class="carimg" src="images/icoon.carousel5.svg" alt="icoon stop gebaar">
 							<div class="carouseltekst">
 								<h3>Mondkapje</h3>
 								<p>We vragen je om die te dragen bij binnenkomst en bij het verlaten van de club.</p>
@@ -119,7 +118,7 @@
 				</div>
 				<div id="griddisplay">
 					<article class="article">
-						<img src="images/video1section3.gif">
+						<img src="images/video1section3.gif" alt="comfort gif">
 						<div class="ruimte">
 							<button>
 							<i>🙌</i>
@@ -131,11 +130,11 @@
 								<li>&#10004; Volg in de club en thuis de virtuele GXR groepslessen</li>
 								<li>&#10004; Onbeperkt gebruik van de Basic-Fit app met virtuele assistent</li>
 							</ul>
-							<a class="oranjeknop">selecteer lidmaatschap</a>
+							<a tabindex="0" class="oranjeknop">selecteer lidmaatschap</a>
 						</div>
 					</article>
 					<article class="article">
-						<img src="images/video2section3.gif">
+						<img src="images/video2section3.gif" alt="premium gif">
 						<div class="ruimte">
 							<button>
 							<i>🙌</i>
@@ -147,7 +146,7 @@
 								<li>&#10004; Deel je pas met je huisgenoot</li>
 								<li>&#10004; Neem altijd iemand mee om samen te sporten</li>
 							</ul>
-							<a class="oranjeknop">selecteer lidmaatschap</a>
+							<a tabindex="0" class="oranjeknop">selecteer lidmaatschap</a>
 						</div>
 					</article>
 				</div>
@@ -156,21 +155,21 @@
 			<section id="gerelateerde" class="zijruimte">
 				<h2>Gerelateerde artikelen</h2>
 				<div class="nieuws">
-					<img src="images/foto3.section4.jpg">
+					<img src="images/foto3.section4.jpg" alt="man op sport apparaat">
 					<p>3 redenen waarom je in onze clubs kan blijven trainen</p>
 				</div>
 				<div class="nieuws">
-					<img src="images/foto1.section4.jpg">
+					<img src="images/foto1.section4.jpg" alt="koppel voor en na het afvallen">
 					<p>
 					Hoe Personal Training het leven van Janneke veranderd heeft</p>
 				</div>
 				<div class="nieuws">
-					<img src="images/foto2.section4.jpg">
+					<img src="images/foto2.section4.jpg" alt="man met geblesseerde knie">
 					<p>Hoe voorkom je hardloopblessures?</p>
 				</div>
 			</section>
 			<section id="laatstesection">
-				<img id="laatstebanner"src="images/banner.section4.png" width="100%">
+				<img id="laatstebanner" src="images/banner.section4.png" alt="basic-fit app op mobiel">
 				<div id="laatstemaintekst" class="zijruimte">
 					<h2>Reserveer je fitnessmoment!</h2>
 					<ul>
@@ -224,29 +223,29 @@
 						</div>
 					</div>
 				</div>
-				<img id="manopzij" src="images/foto1.footer.png">
-				<img id= "achtergrondman" src="images/witschuin.svg">
+				<img id="manopzij" src="images/foto1.footer.png" alt="man in zijwaardse plank houding">
+				<img id= "achtergrondman" src="images/witschuin.svg" alt="achtergrond van de man in plank houding">
 			</section>
 			<section>
 				<div id="basiclogo">
-					<a  href='index.html'><img src='images/logo.basicfit.svg' alt='logo basic-fit'>
-					</div>
-					<div>
-						<div class="footer-seperator"></div>
-						<p id="center">Basic-Fit Nederland &#8964;</p>
-						<div class="footer-seperator"></div>
-					</div>
-					
-					<ul id="tekstwitfooter">
-						<li><a id="grid1" href="">Cookie Statement</a></li>
-						<li><a href="">Reglement cameratoezicht</a></li>
-						<li><a href="">Privacy Statement</a></li>
-						<li><a href="">Algemene voorwaarden</a></li>
-						<li><a href="">14 dagen herroepingsrecht</a></li>
-					</ul>
-					
-				</section>
-			</footer>
-		</body>
-		
-	</html>
+					<a href='index.html'><img src='images/logo.basicfit.svg' alt='logo basic-fit'></a>
+				</div>
+				<div>
+					<div class="footer-seperator"></div>
+					<p tabindex="0" id="center">Basic-Fit Nederland &#8964;</p>
+					<div class="footer-seperator"></div>
+				</div>
+				
+				<ul id="tekstwitfooter">
+					<li><a id="grid1" href="">Cookie Statement</a></li>
+					<li><a href="">Reglement cameratoezicht</a></li>
+					<li><a href="">Privacy Statement</a></li>
+					<li><a href="">Algemene voorwaarden</a></li>
+					<li><a href="">14 dagen herroepingsrecht</a></li>
+				</ul>
+				
+			</section>
+		</footer>
+	</body>
+	
+</html>

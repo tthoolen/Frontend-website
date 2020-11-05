@@ -53,6 +53,11 @@ a, a:active, a:visited {
 	cursor: pointer;
 }
 
+.main-nav ul li button{
+	background-color: white;
+	border: none;
+}
+
 #nav-desk::before {
 	content: "";
 	width: 100%;
@@ -116,11 +121,11 @@ a, a:active, a:visited {
 	text-transform: uppercase;
 }
 
-#js--overlay{
+.js--overlay{
 	background-color: #3133136;
 }
 
-#js--overlay ul{
+.js--overlay ul{
 	list-style: none;
 	text-align:center;
 	top:30px;
@@ -128,12 +133,12 @@ a, a:active, a:visited {
 	color: 
 }
 
-#js--overlay ul li a{
+.js--overlay ul li a{
 	color: white;
 	font-family: ArTarumianBakhum,sans-serif;
 }
 
-#js--overlay {
+.js--overlay {
 	z-index: 110;
 	display: none;
 	width: 100%;
@@ -145,14 +150,14 @@ a, a:active, a:visited {
 	line-height: 40px;
 }
 
-#js--overlay > ul {
+.js--overlay > ul {
 	list-style: none;
 	text-align: center;
 	top: 70px;
 	position: relative;
 }
 
-#js--overlay > ul > li > a{
+.js--overlay > ul > li > a{
 	color: white;
 	font-size: 26px;
 	font-weight: 600;
@@ -171,7 +176,7 @@ a, a:active, a:visited {
 	margin: 10px auto;
 }
 
-#closeMobileMenu {
+.closeMobileMenu {
 	margin: 0;
 	top: 10px;
 	right: 20px;
@@ -179,8 +184,13 @@ a, a:active, a:visited {
 	cursor: pointer;
 	color: white;
 	font-size: 30px;
+	background-color: rgba(0,0,0,0);
+	border:none;
 }
 
+.verschijnmenu{
+	display: block;
+}
 /*/--------------main------------/*/
 
 /*/-------section1--------/*/

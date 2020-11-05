@@ -1,7 +1,16 @@
-function mobileNavOpen() {
-    document.getElementById('js--overlay').style.display = 'block';
+var hamburgerButton = document.querySelector("#hamburgericoon");
+var hamburgerOpen = document.querySelector("#hamburgermenu");
+var hamburgerKruisje = document.querySelector("#kruisje");
+
+function toonMobileNav (){
+	hamburgerOpen.classList.add("verschijnmenu");
+		console.log("hamburger")
 }
 
-function mobileNavClose() {
-    document.getElementById('js--overlay').style.display = 'none';
+function verbergMobileNav (){
+	hamburgerOpen.classList.remove("verschijnmenu");
+console.log("hamburger")
 }
+
+hamburgerButton.addEventListener('click', toonMobileNav);
+hamburgerKruisje.addEventListener('click', verbergMobileNav);
