@@ -17,18 +17,13 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 9. unicode https://unicode-table.com/en/2794/
 10. unicode https://www.compart.com/en/unicode/U+2304
 11. informatie responsive footer https://www.youtube.com/watch?v=f4J3uaNNYTE
-12.
 
 
 
-## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+## Herkansing (week 9)
 
-**Screenshot(s):**
-
--screenshot(s) van je eindresultaat-
-
+-Voor mijn herkansing heb ik de toegangkelijkheid van voor de gebruiker beter gemaakt. Ik heb ook de javascript veranderd omdat deze niet goed gescheiden was van html en css. Ik heb als laatst de html door een validator gehaald omdat ik dat nog niet had gedaan voor het eerste toetsing moment.
 
 
 ## Voortgang 3 (week 6)
